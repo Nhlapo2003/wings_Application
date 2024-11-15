@@ -1,0 +1,132 @@
+/* ProductManagement.css */
+
+#product-management {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+h2, h3 {
+    color: #333;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form input {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Product List Styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul li span {
+    flex-grow: 1;
+    color: #333;
+    font-size: 16px;
+}
+
+/* Buttons Styling */
+ul li button,
+ul li a button {
+    padding: 6px 12px;
+    margin-left: 8px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Button Colors */
+ul li button:first-child {
+    background-color: #ffc107;
+    color: #fff;
+}
+
+ul li button:nth-child(2) {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+ul li a button:last-child {
+    background-color: #28a745;
+    color: #fff;
+}
+
+/* Button Hover Effects */
+ul li button:first-child:hover {
+    background-color: #e0a800;
+}
+
+ul li button:nth-child(2):hover {
+    background-color: #c82333;
+}
+
+ul li a button:last-child:hover {
+    background-color: #218838;
+}
+
+/* Disable Button */
+ul li a button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+    color: #666;
+}
+
+/* Message Styling */
+.message {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #e0ffe0;
+    border-left: 5px solid #28a745;
+    color: #333;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+}
